@@ -17,7 +17,7 @@ Head over to GitHub and create a new public repository named username.github.io,
 Go to the folder where you want to store your project, and clone the new repository:
 
 ```bash
-#Throughout process eplace my name, "StephenShedden", with your own username.
+#Throughout process replace my name, "StephenShedden", with your own username.
 git clone https://github.com/StephenShedden/StephenShedden.github.io
 ```
 
