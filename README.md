@@ -1,54 +1,24 @@
 # StephenShedden.github.io
 
-Hello world!
-
-## Testing the web instructions to GitHub's static website
+## Hello world
 
 ---
 
-## Create a repository
+I threw this site up to see if it would work on GitHubs static page.
 
-Head over to GitHub and create a new public repository named username.github.io, where username is your username (or organization name) on GitHub.
+It was on a lampstack using php to chat with the sql server.
 
-- If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right
+No name as yet and a some cleaning up to do.
 
-## Clone the repository
-
-Go to the folder where you want to store your project, and clone the new repository:
-
-```bash
-#Throughout process replace my name, "StephenShedden", with your own username.
-git clone https://github.com/StephenShedden/StephenShedden.github.io
-```
-
-## Hello World
-
-Enter the project folder and add an index.html file:
-
-```bash
-cd StephenShedden.github.io
-echo "Hello World" > index.html
-```
-
-## Push it
-
-Add, commit, and push your changes:
-
-```bash
-git add --all
-git commit -m "Intial commit"
-git push -u origin master #default branch name can might be main
-```
-
-## ...and you're done
-
-Fire up a browser and go to `https://StephenShedden.github.io`
+[Link to site](https://StephenShedden.github.io)
 
 ---
 
-### Links
+## Markdown is cool
 
-- [Jekyll](https://jekyllrb.com/)
-- [Set up Jekyll](https://jekyllrb.com/docs/)
-- [Custom URLs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
-- [GitHub Pages Guides](https://docs.github.com/pages)
+1. Start writing a list push enter.
+2. and the next number comes up.
+   1. Put in some indents and you have 2.1 hit enter.
+   2. 2.2 it is like magic.
+
+Have a great day!
