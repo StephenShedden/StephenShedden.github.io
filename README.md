@@ -31,6 +31,7 @@ No name as yet and a some cleaning up to do.
     4. Put back into web site and test on local machine before pushing to production repo.
     5. Document the workflow and, later, try to automate the majority of the manuel labour.
 5. Updated this README.md file.
+6. Added Content Security Policy (CSP) to index.html. The directives are set by the Content Security Policy standard, which is a W3C (World Wide Web Consortium) standard.[CSP policy W3C link](https://www.w3.org/TR/CSP3/)
 
 ## List of to dos
 
