@@ -21,7 +21,7 @@ No name as yet and a some cleaning up to do.
 
 ## List of things I have done here
 
-1. Tryed to secure branch and site best I could.
+1. Tried to secure branch and site best I could.
 2. Used the GitHub instructions to get the simple "Hello World" in test message up on GitHub hosted static website.
 3. Created a Project space in VS Code, dumped Web site backup in a directory in the project. Ripped out the Sql and PhP components and tested functionality. Copied the files and directories I wanted to the static web site repo, committed changes, and pushed it to GitHub remote repo.
 4. One of the pages has a calendar and requires manual changing. This was fun on a headless server. I created a directory were I could just;
