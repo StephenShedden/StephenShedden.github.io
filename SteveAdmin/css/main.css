@@ -1,27 +1,55 @@
 :root {
-  --green: #269963;
-  --lgreen:#17de14;
-  --white: #FFFFFF;
-  --black: #000000;
-  --purple: #822699;
-  --blue: #3f84eb;
-  --yellow: #f5ed16;
-  --red: #eb1313;
-  --orange: #ed7809;
-  --turquoise: #2de3d7;
+    --green: #7ee599b3;
+    --black: #000000e8;
+    --white: #ffffffd9;
+    --red: #f08f8f;
 }
+
 body {
-  background: var(--bg);
-  color: var(--fontColor);
-  font-family: helvetica;
+    font-family: Arial, sans-serif;
+    background-color: var(--bg);
+    color: var(--fontColor);
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    height: 70px; /* Set a fixed height for the banner */
+    position: relative; /* Ensure the button can be positioned absolutely within the banner */
+}
+
+.banner h1 {
+    margin: 0;
+    margin-left: 20px; /* Add some space between the logo and the title */
+}
+
+.logo {
+    height: 100%; /* Make the logo fill the height of the banner */
+    width: auto; /* Maintain the aspect ratio */
+}
+
+#theme-toggle {
+    margin-left: auto; /* Push the button to the right */
+    padding: 10px 20px;
+    background-color: var(--btnBg);
+    color: var(--btnFontColor);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 ul {
     font-family: helvetica;
 }
+
 li {    
     list-style: circle;
 }
+
 .list {
     list-style: square;
 }
@@ -43,21 +71,22 @@ li {
 
 .dark-theme {
   --bg: var(--black);
-  --fontColor: var(--green);
-  --btnBg: var(--yellow);
-  --btnFontColor: var(--purple);
+  --fontColor: var(--white);
+  --btnBg: var(--white);
+  --btnFontColor: var(--black);
 }
 
 .btn {
   position: absolute;
-  top: 20px;
-  right: 50px;
-  height: 50px;
-  width: 50px;
+  top: 20px; /* Adjusted to fit within the banner */
+  right: 40px; /* Adjusted to fit within the banner */
+  height: 50px; /* Adjusted height */
+  width: 80px; /* Adjusted width */
   border-radius: 50%;
-  border: 10px; 
+  border: none; /* Removed border for a cleaner look */
   color: var(--btnFontColor);
   background-color: var(--btnBg);
+  cursor: pointer;
 }
 
 .ayla-image {
