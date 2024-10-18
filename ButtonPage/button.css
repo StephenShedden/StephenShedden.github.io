@@ -1,10 +1,31 @@
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  height: 70px; /* Set a fixed height for the banner */
+  position: relative; /* Ensure the button can be positioned absolutely within the banner */
+}
+
+.banner h1 {
+  margin: 0;
+  margin-left: 20px; /* Add some space between the logo and the title */
+}
+
+.logo {
+  height: 70px; /* Make the logo fill the height of the banner */
+  width: 70px; /* Maintain the aspect ratio */
+}
+
 button {
   background-color: #F2C33C;
   font-size: 20px;
   color: #000000;
-  padding: 10px;
-  border-radius: 10px;
-  border: 3px solid #808080;
+  padding: 30px;
+  border-radius: 15px;
+  border: 8px solid #808080;
 }
 
 button:hover {
@@ -21,7 +42,7 @@ button:hover {
   font-family: Arial, sans-serif;
   background-color: #509FCB;
   color: #000000;
-  width: 400px;
+  width: 350px;
   padding: 20px;
   margin-top: 20px;
   border-radius: 10px;
@@ -31,10 +52,14 @@ button:hover {
   font-family: Arial, sans-serif;
   background-color: #509FCB;
   color: #000000;
-  width: 400px;
+  width: 450px;
   padding: 20px;
   margin-top: 20px;
   border-radius: 10px;
   border: 3px solid rgb(83, 11, 83);
 
+}
+
+#go {
+  font-family: verdana;
 }
