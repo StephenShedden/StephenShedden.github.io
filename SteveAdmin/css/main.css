@@ -1,5 +1,5 @@
 :root {
-    --green: #7ee599b3;
+    --green: #4fad689c;
     --black: #000000e8;
     --white: #ffffffd9;
     --red: #f08f8f;
@@ -34,7 +34,7 @@ body {
 
 #theme-toggle {
     margin-left: auto; /* Push the button to the right */
-    padding: 10px 20px;
+    padding: 3px 14px;
     background-color: var(--btnBg);
     color: var(--btnFontColor);
     border: none;
@@ -43,7 +43,7 @@ body {
 }
 
 ul {
-    font-family: helvetica;
+    font-family: Arial, sans-serif;
 }
 
 li {    
@@ -55,11 +55,11 @@ li {
 }
 
 #go {
-     font-family: verdana;
+     font-family: Arial, sans-serif;
 }
 
 #msg {
-    font-family: monospace;
+    font-family: Arial, sans-serif;
 }
 
 .light-theme {
@@ -78,11 +78,11 @@ li {
 
 .btn {
   position: absolute;
-  top: 20px; /* Adjusted to fit within the banner */
-  right: 40px; /* Adjusted to fit within the banner */
-  height: 50px; /* Adjusted height */
-  width: 80px; /* Adjusted width */
-  border-radius: 50%;
+  top: 30px; /* Adjusted to fit within the banner */
+  right: 0px; /* Adjusted to fit within the banner */
+  height: 35px; /* Adjusted height */
+  width: 60x; /* Adjusted width */
+  border-radius: 47%;
   border: none; /* Removed border for a cleaner look */
   color: var(--btnFontColor);
   background-color: var(--btnBg);
