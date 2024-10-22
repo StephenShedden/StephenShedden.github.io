@@ -2,7 +2,7 @@
     --green: #4fad689c;
     --black: #000000e8;
     --white: #ffffffd9;
-    --red: #f08f8f;
+    --red: #e22626;
 }
 
 body {
@@ -30,6 +30,9 @@ body {
 .logo {
     height: 100%; /* Make the logo fill the height of the banner */
     width: auto; /* Maintain the aspect ratio */
+    padding: 1px;
+    border-radius: 11px;
+    border: 3px solid #9e9e9e1c;
 }
 
 #theme-toggle {
@@ -90,10 +93,16 @@ li {
 }
 
 .ayla-image {
-    width: 100px;
-    height: 60px;
+    width: 150px;
+    height: 90px;
+    padding: 1px;
+    border-radius: 11px;
+    border: 3px solid #9e9e9e1c;
 }
 .sid-image {
-    width: 100px;
-    height: 60px;
+    width: 150px;
+    height: 90px;
+    padding: 1px;
+    border-radius: 11px;
+    border: 3px solid #9e9e9e1c;
 }
