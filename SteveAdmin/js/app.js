@@ -13,3 +13,20 @@ switcher.addEventListener('click', function () {
         this.textContent = "Light";
     }
 });
+
+function viewImage(event, src) {
+    event.preventDefault();
+    document.getElementById('image-viewer').src = src;
+}
+
+// Add event listeners to image links
+document.querySelectorAll('#go a').forEach(link => {
+    link.addEventListener('click', function(event) {
+        viewImage(event, this.href);
+    });
+});
+
+// Set default image in the viewer when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('image-viewer').src = './ButtonPage/stephenShedden01.png';
+});
