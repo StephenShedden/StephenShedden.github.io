@@ -25,8 +25,3 @@ document.querySelectorAll('#go a').forEach(link => {
         viewImage(event, this.href);
     });
 });
-
-// Set default image in the viewer when the page loads
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('image-viewer').src = './ButtonPage/stephenShedden01.png';
-});
