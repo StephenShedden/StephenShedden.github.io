@@ -14,14 +14,28 @@ switcher.addEventListener('click', function () {
     }
 });
 
-function viewImage(event, src) {
-    event.preventDefault();
-    document.getElementById('image-viewer').src = src;
+var slideIndex = 0;
+showSlides(slideIndex);
+
+function changeSlide(n) {
+  showSlides(slideIndex += n);
 }
 
-// Add event listeners to image links
-document.querySelectorAll('#go a').forEach(link => {
-    link.addEventListener('click', function(event) {
-        viewImage(event, this.href);
-    });
+function showSlides(n) {
+  var slides = document.getElementsByClassName('carousel-inner')[0].getElementsByTagName('img');
+  if (n >= slides.length) { slideIndex = 0 }
+  if (n < 0) { slideIndex = slides.length - 1 }
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].classList.remove('active');
+  }
+  slides[slideIndex].classList.add('active');
+}
+
+// Add event listeners for the buttons
+document.querySelector('.prev').addEventListener('click', function() {
+    changeSlide(-1);
+});
+  
+document.querySelector('.next').addEventListener('click', function() {
+    changeSlide(1);
 });
