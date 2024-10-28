@@ -33,13 +33,17 @@ No name as yet and a some cleaning up to do.
 5. Updated this README.md file.
 6. Added Content Security Policy (CSP) to index.html. The directives are set by the Content Security Policy standard, which is a W3C (World Wide Web Consortium) standard.[CSP policy W3C link](https://www.w3.org/TR/CSP3/)
 7. Added a banner to Testlab site.
+8. Clean up code errors and use local Dev tools to improve usability for phones and ipads.
+9. Name site and apply across the site, custom domain name, browser tabs, landing page.
+10. Put my 4 other children names in there somewhere, I love and miss them all.
 
 ## List of to dos
 
-1. Clean up code errors and use local Dev tools to improve usability for phones and ipads.
-2. Name site and apply accross the site, custom domain name, browser tabs, landing page.
-3. Get markdown to work and have my little guides available on my phone.
-4. Put my 4 other children names in there somewhere, I love and miss them all.
+1. Reduce image sizes as much as possible to reduce data intake when browsing.
+2. Continue to refine site, clean up as many errors as possible.
+3. Save a version of working site.
+4. Get markdown to work and have my little guides available on my phone to new resource directory.
 5. Play around with streaming boxes, other external capabilities, and API resources.
+6. Restructure the site to have the children's tile image lead to another resource directory, clean it up and call data from a external resource.???
 
 Have a great day!
